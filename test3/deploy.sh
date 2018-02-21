@@ -1,7 +1,7 @@
 #!/bin/bash
-yum repolist
-yum -y install telnet
-rpm -qa|grep telnet
-user add demouser
-id -a demouser
-echo "successful"
+sudo yum repolist
+sudo yum -y install telnet
+sudo rpm -qa|grep telnet
+sudo user add demouser
+sudo id -a demouser
+sudo echo "successful"
